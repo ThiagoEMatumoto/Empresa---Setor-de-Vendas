@@ -8,7 +8,7 @@ public class ProdutoClasse2 extends Produto {
 
 	@Override
 	public Float getPorcentagemComissao() {
-		this.porcentagemComissao = (float) 0.1;
+		this.porcentagemComissao = (float) 0.1 * this.preco;
 		return this.porcentagemComissao;
 	}
 
